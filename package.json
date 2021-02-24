@@ -27,6 +27,8 @@
   },
   "dependencies": {
     "@neilsustc/markdown-it-katex": "^0.6.1",
+    "async-validator": "1.11.5",
+    "element-ui": "^2.15.1",
     "markdown-it-disable-url-encode": "^1.0.1",
     "vuepress-plugin-comment": "^0.7.3"
   }
