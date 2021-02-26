@@ -8,6 +8,11 @@ module.exports = [
 
   'vuepress-plugin-baidu-autopush', // 百度自动推送
   ['@vite/vuepress-plugin-mathjax'],
+  ["sitemap", {
+            "hostname": "https://blog.chgtaxihe.top", // 替换成你的 GitHub 地址
+            "exclude": ['/404.html']
+        }
+  ],
   // 可以添加第三方搜索链接的搜索框（原官方搜索框的参数仍可用）
   [
     'thirdparty-search',
